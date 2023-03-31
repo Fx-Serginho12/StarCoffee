@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Tangerine:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+header{
+    background-color:greenyellow;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+.logo{
+    height: 60px;
+}
+.logo-menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 600px;
+    color: black;
+    margin: 10px 5px; 
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.botoes-menu {
+    font-size: 10px;
+}
+.botoes{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+}
+.botao-branco{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.botao-branco:hover{
+    background-color: white;
+    transition: 0.5;
+    box-shadow: 2px 2px 2px gray;
+}
+.botao-preto{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main > img{
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+.texto1{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.texto1 > p{
+    margin-bottom: 30px;
+}
+.botao{
+    border: 1px solid black;
+    color: black;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.botao:hover{
+    background-color: rgba(123, 119, 119, 0.874);
+    transition: 0.5;
+    box-shadow: 2px 2px 2px gray;
+}
+  
+
+main2{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main2 > img{
+    width: 100%;
+    overflow: scroll;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+p{
+        text-decoration: none;
+        font-weight: 600px;
+        color: black;
+        margin: 10px 20px; 
+        color: black;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+}
+.imagem-texto{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.imagem-texto > img{
+    width: 50%;
+}
+.texto2{
+    background-color: aquamarine;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width:500px) {
+    .imagem-texto{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+   .imagem-texto > img {
+        min-width: 100%;
+    }
+    div {
+        min-width: 100%;
+    }
+}
+footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icones > img {
+    margin-right: 10px;
+}
